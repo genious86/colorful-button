@@ -6,6 +6,12 @@
     background-color: hsl(231, 10%, 13%);
 }
 .button_border{
-    background: linear-gradient(115deg, #eeaf61,#fb9062, #ee5d6c, #ce4993, #6a0d83);
+    background: linear-gradient(115deg, hsl(33, 81%, 66%),hsl(18, 60%, 54%), hsl(354, 89%, 35%), hsl(327, 51%, 46%), hsl(261, 77%, 29%));
     padding: 2px;
+}
+.button{
+    border: none;
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 80%);
+    padding: 1em 1.5em;
 }
