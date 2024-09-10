@@ -24,3 +24,11 @@ html,body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1em;
 }
+
+.button_border:hover{
+background:linear-gradient(115deg, hsl(327, 51%, 46%),hsl(18, 60%, 54%), hsl(354, 89%, 35%), hsl(261, 77%, 29%) hsl(33, 81%, 66%));
+}
+.button_border:hover .button{
+    color: hsl(0, 0%, 100%);
+    padding: 1.2em 1.7em;
+}
